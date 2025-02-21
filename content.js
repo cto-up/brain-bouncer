@@ -195,7 +195,7 @@ function showChallengePopup() {
 
     questions.forEach((q, i) => {
       formHTML += `<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-        <p style="margin-right: 10px; flex-grow: 1; word-wrap: break-word; max-width: 300px;">${q} = </p>
+        <p style="margin-right: 10px; flex-grow: 1; word-wrap: break-word; max-width: 300px; color: white">${q} = </p>
         <input type='text' id='q${i}' style="flex-shrink: 0; width: 80px; box-sizing: border-box; color: white; background-color: transparent; border: 1px solid #ccc; padding: 5px;">
       </div>`;
     });
