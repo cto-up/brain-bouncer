@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brain Bouncer Settings</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Challenged Websites</h1>
+    <select id="difficulty" aria-label="Select difficulty level">
+      <option value="easy">Easy (1-10)</option>
+      <option value="medium">Medium (10-50)</option>
+      <option value="hard">Hard (50-100)</option>
+    </select>
+    <div class="input-group">
+      <input
+        type="text"
+        id="domainInput"
+        placeholder="Enter domain (facebook.com)"
+        aria-label="Enter domain"
+      />
+      <button id="addDomain" aria-label="Add domain">Add</button>
+    </div>
+    <ul id="domainList" aria-live="polite"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>
