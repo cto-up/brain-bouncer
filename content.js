@@ -189,7 +189,8 @@ function showChallengePopup() {
 
     let formHTML =
       "<div style='background: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px;'>";
-    formHTML += "<h2 style='margin-bottom: 15px;'>Solve these to proceed</h2>";
+    formHTML +=
+      "<h2 style='margin-bottom: 15px; color: white;'>Solve these to proceed</h2>";
     formHTML +=
       "<p id='errorMessage' style='color:rgb(170, 15, 15); margin-bottom: 10px; display: none;'>Wrong answers! Try again.</p>";
 
